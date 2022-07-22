@@ -31,7 +31,7 @@
                             @endif
                         </h6>
                         <br>
-                        <h6 class="m-0 font-weight-bold ">URL: <a href="{{$juego->url}}" > {{$juego->url}}</a></h6>
+                        <h6 class="m-0 font-weight-bold ">URL: <a href="{{$juego->url}}" target="_blank"> {{$juego->url}}</a></h6>
                         <br>
                         <h6 class="m-0 font-weight-bold ">Descripcion: {{$juego->descripcion}}</h6>
                     </div>
