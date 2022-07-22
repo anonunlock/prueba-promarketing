@@ -19,7 +19,8 @@
 - Rename or copy `.env.example` file to `.env`
 - Run `php artisan key:generate`
 - Set your database credentials in your `.env` file
-- Run `php artisan DB:seed`
+- Run `php artisan migrate`
+- Run `php artisan db:seed`
 - Login with Email: admin@admin.com Password: Ap123456
 
 
