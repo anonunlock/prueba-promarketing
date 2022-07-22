@@ -70,24 +70,4 @@
         </div>
     </div>
 </div>
-
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $(document).on("click", ".btn-delete",function () {
-            var id = $(this).data("id");
-            var url = url_base + "/juegos/eliminar/" + id;
-                alertify.confirm("Notificaciones", "¿Seguro quieres eliminar este Juego?",
-                    function () {
-                        alertify.success('Eliminar Juego ');
-                        window.location.href = url;
-                    },
-                    function () {
-                        alertify.error('Operacion Cancelada');
-                    });
-        });
-    });
-</script>
-
-
 @endsection
